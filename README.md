@@ -65,3 +65,6 @@ April 28:
 Suggested flow:
 
 -> Feature branch ---Pull Merge--> master branch ---> Travis CI  ---> AWS Hosting
+
+1. git checkout -b feature
+2. 
