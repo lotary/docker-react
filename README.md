@@ -47,9 +47,13 @@ docker-compose down
 
 
 ______________________________________________________________________
+Feb 28
 
-Setting up the CI-CD
+0. to check out the project git clone https://github.com/lotary/docker-react.git
+
+1. Setting up the CI-CD
 
 git init git add . git commit -m "initial commit" git remote add origin "https://github.com/lotary/docker/edit/master/prod/frontend"
 
 integrate the github repo with Travis CI 1. create account in Travic , 2. allow Travis CI to integrate with the repo, 3. create the .travis.yml file to instruct travis CI for automate build
+
