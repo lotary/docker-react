@@ -19,6 +19,9 @@ class App extends Component {
           >
             Learn React!
             New change
+            <b>
+              i was changed on the Feature Branch
+            </b>
             
           </a>
         </header>

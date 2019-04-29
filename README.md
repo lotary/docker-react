@@ -61,3 +61,10 @@ April 28:
 1. Create new docker-react elasticbeanstalk enviornment
 2. Created travis-ci-user, assigned elastic bean stalk full access, added the configuration to travis.yml
 3. DockerFile (production docker file) EXPORT 80, elasticbeanstalk will automatically look at the docker file for the export port and map the port to the exported port
+
+Suggested flow:
+
+-> Feature branch ---Pull Merge--> master branch ---> Travis CI  ---> AWS Hosting
+
+1. git checkout -b feature
+2. 
