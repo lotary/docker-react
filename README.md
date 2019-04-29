@@ -67,4 +67,4 @@ Suggested flow:
 -> Feature branch ---Pull Merge--> master branch ---> Travis CI  ---> AWS Hosting
 
 1. git checkout -b feature
-2. 
+2. git push origin feature
